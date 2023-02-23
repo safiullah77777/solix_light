@@ -1,0 +1,11 @@
+.btn-gradient {
+  background: linear-gradient(180deg, #c7fa50 0%, #c7fa50 36.46%, #4dffeb 100%);
+}
+.banner1 {
+ 
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+  z-index: 2;
+}
+.img{
+    top: min(13vw,106px);
+}

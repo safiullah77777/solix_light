@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url(./assets/styles/home.css);
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html {
+  font-size: 62.5%;
+}
+html,body{
+  overflow-x:hidden;
+}
+/* @media screen and (min-width:1600px){
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width:1024px){
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width:850px){
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width:481px){
+  html {
+    font-size: 45%;
+  }
+} */
+
+@media screen and (min-width: 100.1em) {
+  html {
+    font-size: 75.5% !important;
+  }
+}
+@media screen and (min-width: 96.875em) and (max-width: 100.09em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media screen and (max-width: 96.875em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 45%;
+  }
+}
+@tailwind utilities;
