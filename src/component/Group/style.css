@@ -1,0 +1,15 @@
+
+.paint {
+  contain: paint;
+}
+.jump {
+  animation: jump 1s linear alternate infinite;
+}
+@keyframes jump {
+  0% {
+    top: -3rem;
+  }
+  100% {
+    top: -6rem;
+  }
+}

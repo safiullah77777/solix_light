@@ -3,6 +3,7 @@ import Button from "../Button";
 import img from "../../assets/images/globe.gif";
 import phone from "../../assets/images/hero-phone.gif";
 import { Temp } from "../tem";
+import qrcode from "../../assets/images/qrcode.png";
 const Banner = () => {
   return (
     <div className="pl-[3rem] max-[500px]:px-[1rem] max-[1024px]:flex-col flex items-stretch w-full ">
@@ -25,11 +26,8 @@ const Banner = () => {
               text="Download now"
               classes="bg-[#303030] !font-[600] leading-[150%] !py-[1.1rem] text-[#fff] !rounded-[2.3rem]"
             />
-            <div className="flex">
-              <img
-                src="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fe0517a27-7cb2-4a6b-a2b8-583b32b28cab%2F2IdbsGzCyv3oy44upC0MAbLmY9n_PANA-App-Descarga-PANA-App-Codigo-De-Barra-1.png%3Fbucket%3Ddocument&w=128&q=100"
-                alt=""
-              />
+            <div className="flex w-[12rem] h-[12rem] bg-[#D9D9D9] place-content-center place-items-center">
+              <img src={qrcode} alt="" className="w-[6.2rem] h-[6.2rem]" />
             </div>
           </div>
         </div>
