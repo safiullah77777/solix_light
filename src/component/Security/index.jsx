@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 import { Temp1 } from "../Tem1";
 import Temp2 from "../Temp2";
 
@@ -6,15 +7,22 @@ const Security = () => {
   return (
     <div className="flex gap-[10rem] max-[850px]:flex-col items-center justify-center  relative pt-[10rem]">
       <Temp1 />
-      <div className="max-w-[50rem] px-[3rem]">
-        <h4 className="text-[2.4rem] font-[700] text-[#303030]">
-          Get a Visa debit card to buy everything you love
+      <div className="flex flex-col max-w-[50rem] px-[3rem] gap-[3rem]">
+        <h4 className="text-[24px] font-[700] text-[#303030]">
+          Transfer and receive money fast and secure.
         </h4>
-        <p className="text-[2.4rem] font-[400] text-[#303030]">
-          Accounts are opened and insured up to $250,000 by Piermont Bank,
-          Member FDIC. Use your money with ease and deposit at more than 55,000
-          ATMs nationwide through the Allpoint® ATM network.® (*)
+        <p className="text-[16px] font-[400] text-[#303030]">
+          Make transfers to your Pana contacts, ACH bank accounts or
+          international shipments, all from one place.
         </p>
+        <p className="text-[16px] font-[400] text-[#303030]">
+          No fees on foreign remittances up to $300 on the first remittance of
+          each month.
+        </p>
+        <Button
+          text={"Open your account"}
+          classes="bg-[#303030] !font-[600] leading-[150%] !py-[1.1rem] text-[#fff] !rounded-[2.3rem] mr-auto ml-0"
+        />
       </div>
     </div>
   );

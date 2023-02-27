@@ -52,7 +52,7 @@ const Header = () => {
         />
       </div>
 
-      <div className="flex min-[851px]:hidden ml-auto mr-[4rem]">
+      <div className="flex min-[851px]:hidden ml-auto mr-[2rem]">
         <svg
           className="w-[4rem] cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"

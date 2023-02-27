@@ -29,7 +29,7 @@ const Temp2 = () => {
       
      
       <div
-        className="relative max-[500px]:scale-[0.9]"
+        className="relative max-[500px]:scale-[0.9] max-[370px]:scale-[0.8]"
       >
         <div className="relative top-[10rem] max-[1440px]:top-[20rem]  max-[850px]:top-[20rem]   max-[850px]:left-[10rem] left-[7rem]">
           <div className=" absolute right-[24rem] top-[0rem]   max-[850px]:top-[6rem]  max-[850px]:right-[40rem] z-[10]">

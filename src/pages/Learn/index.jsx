@@ -33,10 +33,48 @@ const Learn = () => {
           />
         </div>
       </div>
-      <div className="flex flex-wrap gap-[2rem] justify-center">
-        <Card />
-        <Card />
-        <Card />
+      <h2 className="text-[3.4rem] text-[#303030] font-[700] mx-auto">
+        Featured articles
+      </h2>
+      <div className="flex flex-wrap gap-[2rem] justify-center ">
+        <Card
+          text1={"A Guide for Latino Immigrants in the U.S."}
+          text2={
+            "What every Pana should know to build credit and achieve the American dream."
+          }
+          btnText={"I want my E-book!"}
+        />
+        <Card
+          text1={"5 challenges to improve your finances"}
+          text2={
+            "Learn how to manage your finances with Pana, as a U.S. Latino immigrant."
+          }
+          btnText={"Challenge accepted!"}
+        />
+        <Card
+          text1={"Checklist to save up to $2000 a year in hidden charges"}
+          text2={
+            "Discover those little expenses that banks charge without you noticing and impact your income."
+          }
+          btnText={"I want my checklist!"}
+        />
+      </div>
+      <h2 className="text-[3.4rem] text-[#303030] font-[700] mx-auto">Blogs</h2>
+      <div className="flex flex-wrap gap-[2rem] justify-center  ">
+        <Card
+          text1={"Tax Return Frequently Asked Questions"}
+          text2={
+            "Every year, from January through April, U.S. residents must comply with the obligation to report their earnings."
+          }
+          btnText={"I want my E-book!"}
+        />
+        <Card
+          text1={"5 tips for entrepreneurs and startups in the U.S."}
+          text2={
+            "Entrepreneurship is a very challenging thing in itself, and even more complex if you do it outside your home country."
+          }
+          btnText={"Challenge accepted!"}
+        />
       </div>
       <Footer />
     </div>

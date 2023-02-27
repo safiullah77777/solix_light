@@ -29,7 +29,7 @@ const Home = () => {
         <Group />
       </div>
       <div className="flex flex-col w-full gap-[3rem] pt-[5rem] justify-center items-center">
-        <h3 className="text-[2.4rem] text-[#303030] font-[700]">
+        <h3 className="text-[24px] text-[#303030] font-[700]">
           What our users say
         </h3>
         <div className="flex gap-[2rem] flex-wrap justify-center">

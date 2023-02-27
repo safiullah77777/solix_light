@@ -16,7 +16,7 @@ const Sponser = () => {
   ];
   return (
     <div className="flex flex-col py-[5rem] px-[3rem] justify-center items-center gap-[4rem]">
-      <h3 className="text-[2.4rem] text-[#303030] font-[700]">
+      <h3 className="text-[24px] text-[#303030] font-[700]">
         We have been mentioned in:
       </h3>
       <div className="flex justify-center flex-wrap gap-[2rem]">
