@@ -1,9 +1,11 @@
 import CountrBox from "../country-box/CountryBox";
-import Arrows from "../../assets/images/arrow-reverse.png";
+import Arrows from "../../assets/images/arrow-reverse1.png";
 import HeroPhone from "../../assets/images/hero-phone.gif";
 import "./style.css";
 import { useState } from "react";
-import card from "../../assets/images/icons/card.svg";
+// import card from "../../assets/images/icons/card.svg";
+import card from '../../assets/images/3dCards.png'
+import globe from "../../assets/images/icons/card.svg";
 export const Temp = () => {
   const [isShuffle, setShuffle] = useState(false);
   return (

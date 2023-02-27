@@ -47,7 +47,7 @@ const Header = () => {
       </div>
       <div className="px-[2rem] my-auto max-[850px]:hidden">
         <Button
-          classes="text-[#5B5B5B] btn-gradient h-[4rem]"
+          classes="text-[#5B5B5B] btn-gradient "
           text="Download"
         />
       </div>

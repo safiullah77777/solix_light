@@ -1,19 +1,20 @@
 .box-country {
-  width: 22rem;
-  height: 22rem;
-  background: linear-gradient(180deg, #263238 0%, rgba(38, 50, 56, 0.5) 100%);
-  border: .3rem solid #02ffe2;
-  box-shadow: 0px 25px 80px rgba(2, 255, 226, 0.2);
-  border-radius: 50px;
+  /* width: 22rem;
+  height: 22rem; */
+  /* background: linear-gradient(180deg, #263238 0%, rgba(38, 50, 56, 0.5) 100%); */
+  background-color: white;
+  border: .3rem solid #5B5B5B;
+  box-shadow: 0px 25px 80px rgba(59, 60, 60, 0.2);
+  border-radius: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;
+  padding: 2rem 4rem;
   transition: all .2s;
 }
 .box-country:hover{
-  border: .5rem solid #02ffe2;
+  border: .5rem solid #333232;
   
 }
 .box-country .flag img {
@@ -23,7 +24,6 @@
 .box-country p {
   font-weight: 500;
   /* font-size: 35px; */
-  line-height: 44px;
   text-align: center;
   color: #999999;
   margin-top: auto;

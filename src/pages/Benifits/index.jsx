@@ -74,7 +74,7 @@ const Benifits = () => {
               className={
                 !isShuffle
                   ? "absolute top-[50px] left-[8.5rem]"
-                  : "absolute top-[50px] left-[32rem]"
+                  : "absolute top-[50px] left-[31rem]"
               }
             >
               <CountrBox
@@ -92,7 +92,7 @@ const Benifits = () => {
             </div>
             <div
               onClick={() => setShuffle(!isShuffle)}
-              className="arrow-reverse !w-[9rem] !h-[9rem] !top-[100px] !left-[24rem]  "
+              className="arrow-reverse !w-[8rem] !h-[8rem] !top-[100px] !left-[24rem]  "
             >
               <img src={Arrows} alt="" className="!w-[7rem] !h-[7rem] " />
             </div>
@@ -101,7 +101,7 @@ const Benifits = () => {
               className={
                 isShuffle
                   ? "absolute top-[50px] left-[8.5rem]"
-                  : "absolute top-[50px] left-[32rem]"
+                  : "absolute top-[50px] left-[31rem]"
               }
             >
               <CountrBox

@@ -341,25 +341,23 @@
 .arrow-reverse {
   position: absolute;
   top: 11rem;
-  left: 38rem;
+  left: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14rem;
-  height: 14rem;
+  /* width: 14rem;
+  height: 14rem; */
   border-radius: 100%;
-  border: 3px solid rgba(2, 255, 226, 1);
-  background-color: #000000;
-  z-index: 10;
+  border: 3px solid #5B5B5B;
+  background-color: #5B5B5B;
+  z-index: 180;
   transition: all 0.7s;
 }
 .arrow-reverse:active {
   animation: rotates 0.3s infinite linear;
-  border: 5px solid rgba(2, 255, 226, 1);
 }
 .arrow-reverse:hover {
   animation: rotates 2s infinite linear;
-  border: 5px solid rgba(2, 255, 226, 1);
 }
 @keyframes rotates {
   0% {
@@ -396,7 +394,7 @@
 .hero-card {
   z-index: 2;
   position: absolute;
-  top: 30rem;
+  top: 20rem;
   right: 2rem;
   width: 33rem;
   height: 31rem;
@@ -624,14 +622,14 @@
 
 .banner-left {
   /* background-image: url(../../assets/earth.png); */
-  background-image: url(../../assets/images/globe.gif);
+  background-image: url(../../assets/images/globe.png);
   /* background-image: url("../../assets/globe\ -\ Glow\ 1.png"); */
 
   background-position: top;
-  background-size: contain;
+  background-size: 60rem;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 100rem;
+  min-height: 70rem;
 }
 .group-img img {
   margin-top: 0rem;
@@ -738,6 +736,7 @@
   }
   .banner-left{
     min-height: 66rem !important;
+    background-size: contain;
   }
 }
 @media screen and (max-width: 600px) {

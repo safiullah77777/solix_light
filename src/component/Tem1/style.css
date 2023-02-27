@@ -345,21 +345,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14rem;
-  height: 14rem;
+  /* width: 14rem;
+  height: 14rem; */
   border-radius: 100%;
-  border: 3px solid rgba(2, 255, 226, 1);
-  background-color: #000000;
   z-index: 10;
   transition: all 0.7s;
 }
 .arrow-reverse:active {
   animation: rotates 0.3s infinite linear;
-  border: 5px solid rgba(2, 255, 226, 1);
 }
 .arrow-reverse:hover {
   animation: rotates 2s infinite linear;
-  border: 5px solid rgba(2, 255, 226, 1);
 }
 @keyframes rotates {
   0% {
