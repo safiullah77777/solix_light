@@ -4,7 +4,7 @@ import western from '../../assets/images/western.png'
 const FeeCard = () => {
   return (
     <div className="bg-[#C7FA50]/[0.5] flex rounded-[0.7rem] flex-wrap max-[850px]:flex-col justify-center">
-      <div className="flex bg-[#C7FA50] rounded-[0.7rem] min-[850px]:h-full max-[850px]:w-full w-[13.4rem] flex-col gap-[0rem] place-content-center justify-center items-center">
+      <div className="flex bg-[#C7FA50] rounded-[0.7rem] min-[850px]:h-full max-[850px]:w-full w-[13.4rem] h-full flex-col gap-[0rem] place-content-center justify-center items-center">
         <span className="text-[#5B5B5B] text-[1.6rem] font-[600]">
           Solix fee
         </span>

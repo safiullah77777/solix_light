@@ -4,8 +4,8 @@ import logo from "../../assets/images/logo.png";
 const Footer = () => {
   return (
     <div className="flex  px-[2rem] w-full">
-      <div className="flex items-center gap-[4rem] flex-col border-t-[1px] w-full py-[2rem] border-[#ccc]">
-        <div className="flex gap-[12rem] mx-auto ">
+      <div className="flex items-center gap-[4rem] flex-col border-t-[1px] w-full py-[2rem] border-[#ccc] ">
+        <div className="flex gap-[12rem] mx-auto max-[850px]:flex-col  max-[850px]:gap-[3rem] ">
           <div className="flex flex-col justify-center items-center">
             <img src={logo} />
             <span className="text-[#7EA623] text-[1.6rem] font-[500]">
@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[2rem] pt-[3rem]">
+          <div className="flex flex-col gap-[2rem] pt-[3rem] max-[850px]:items-center">
             <h2 className="text-[#000] font-[700] text-[1.6rem]">Folow Us</h2>
             <ul className="flex flex-col gap-[1rem]">
               <li>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col gap-[2rem] pt-[3rem]">
+          <div className="flex flex-col gap-[2rem] pt-[3rem] max-[850px]:items-center">
             <h2 className="text-[#000] font-[700] text-[1.6rem]">Community</h2>
             <ul className="flex flex-col gap-[1rem]">
               <li>
@@ -58,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col gap-[2rem] pt-[3rem]">
+          <div className="flex flex-col gap-[2rem] pt-[3rem] max-[850px]:items-center">
             <h2 className="text-[#000] font-[700] text-[1.6rem]">Legal</h2>
             <ul className="flex flex-col gap-[1rem]">
               <li>

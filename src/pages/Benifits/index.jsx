@@ -35,7 +35,7 @@ const Benifits = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-[8rem] max-[850px]:flex-col pt-[20rem] ">
+      <div className="flex justify-center items-center gap-[8rem] max-[850px]:flex-col pt-[20rem] pb-[10rem]">
         <div className="max-w-[50rem] px-[3rem]">
           <h4 className="text-[2.4rem] font-[700] text-[#303030]">
             Chat with your friends and family on the app
@@ -57,23 +57,23 @@ const Benifits = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center items-center ">
-        <div className="flex relative w-[50rem] ">
-          <div className="relative left-[10rem] top-[16rem] overflow-y-clip">
+      <div className="flex justify-center items-center max-[380px]:scale-[.8] max-[850px]:flex-col max-[850px]:gap-[6rem] ">
+        <div className="flex relative w-[80rem] ">
+          <div className="relative left-[18rem] max-[450px]:left-[23rem]  top-[40px] overflow-y-clip">
             <img
-              className="-rotate-[44deg] h-[440px]"
+              className="-rotate-[44deg] h-[44rem]"
               src={Phones}
               alt="Group"
             />
           </div>
 
-          <div className="">
+          <div className="relative -left-[17rem]">
             <div
               id="card1"
               className={
                 !isShuffle
-                  ? "absolute bottom-[3rem] left-[5rem]"
-                  : "absolute -bottom-[4rem] right-[6rem]"
+                ? "absolute top-[50px] left-[8.5rem]"
+                : "absolute top-[50px] left-[35rem]"
               }
             >
               <CountrBox
@@ -91,7 +91,7 @@ const Benifits = () => {
             </div>
             <div
               onClick={() => setShuffle(!isShuffle)}
-              className="arrow-reverse !w-[7rem] !h-[7rem] !top-[27rem] !left-[21rem]"
+              className="arrow-reverse !w-[9rem] !h-[9rem] !top-[100px] !left-[24rem]  "
             >
               <img src={Arrows} alt="" className="!w-[7rem] !h-[7rem] " />
             </div>
@@ -99,8 +99,8 @@ const Benifits = () => {
               id="card2"
               className={
                 isShuffle
-                  ? "absolute bottom-[3rem] left-[5rem]"
-                  : "absolute -bottom-[4rem] right-[6rem]"
+                  ? "absolute top-[50px] left-[5rem]"
+                  : "absolute top-[50px] left-[32rem]"
               }
             >
               <CountrBox

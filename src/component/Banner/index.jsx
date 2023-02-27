@@ -6,7 +6,7 @@ import { Temp } from "../tem";
 import qrcode from "../../assets/images/qrcode.png";
 const Banner = () => {
   return (
-    <div className="pl-[3rem] max-[500px]:px-[1rem] max-[1024px]:flex-col flex items-stretch w-full ">
+    <div className="pl-[3rem] max-[500px]:px-[1rem] max-[1024px]:flex-col flex items-stretch w-full pt-[10rem]">
       <div className="flex px-[1.5rem] min-[1024px]:mr-[15rem] min-[850px]:min-w-[44.2rem]  min-[850px]:max-w-[54.2rem] items-start py-[2rem] flex-1 ">
         <div className="flex flex-col ">
           <h2 className="text-[5.2rem] text-[#303030] font-[800] leading-[112%] text-left py-[3rem]">

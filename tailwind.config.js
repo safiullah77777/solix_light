@@ -8,7 +8,8 @@ module.exports = {
       },
       boxShadow: {
         btn: "0 10px 20px -10px #0578e2",
-        btn1:"0 10px 20px -10px #000000"
+        btn1:"0 10px 20px -10px #000000",
+        card: "0px 4px 15px rgba(0, 0, 0, 0.1)"
       },
     },
   },
